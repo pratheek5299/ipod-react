@@ -1,0 +1,55 @@
+.outer-div {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  #inner-div {
+    width: 50%;
+    height: 50%;
+    background-image: linear-gradient(to bottom left, gray, lightgray, gray);
+    margin: auto;
+    margin-top: 25%;
+    border-radius: 50%;
+    background-color: lightgray;
+  }
+  .nav-options {
+    position: absolute;
+  }
+  .menu {
+    position: absolute;
+    left: 76px;
+    top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #bababa;
+  }
+  
+  .forward {
+    position: absolute;
+    top: 76px;
+    left: 20px;
+    cursor: pointer;
+    color: #bababa;
+  }
+  .backward {
+    position: absolute;
+    left: 165px;
+    top: 75px;
+    color: #bababa;
+    cursor: pointer;
+  }
+  .play-pause {
+    position: absolute;
+    top: 148px;
+    left: 86px;
+    cursor: pointer;
+    color: #bababa;
+  }
+  .nav-options {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+  }
+  
